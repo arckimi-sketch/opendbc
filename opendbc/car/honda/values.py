@@ -158,6 +158,12 @@ class CAR(Platforms):
     CarSpecs(mass=890., wheelbase=2.520, steerRatio=18.64),
     {Bus.pt: 'acura_rdx_2020_can_generated'},
   )
+  HONDA_FIT_4G = HondaBoschPlatformConfig(
+    [HondaCarDocs("Honda Fit (Taiwan) 2025", "All")],
+    CarSpecs(mass=1229, wheelbase=2.53, steerRatio=19.7, centerToFrontRatio=0.39, minSteerSpeed=23. * CV.KPH_TO_MS),
+    {Bus.pt: 'honda_bosch_radarless_generated'},
+    flags=HondaFlags.BOSCH_RADARLESS,
+  )
   HONDA_ACCORD = HondaBoschPlatformConfig(
     [
       HondaCarDocs("Honda Accord 2018-22", "All", video="https://www.youtube.com/watch?v=mrUwlj3Mi58", min_steer_speed=3. * CV.MPH_TO_MS),
