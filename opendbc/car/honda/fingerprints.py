@@ -509,6 +509,26 @@ FW_VERSIONS = {
       b'77959-T5R-A230\x00\x00',
     ],
   },
+  CAR.HONDA_FIT_4G:{
+    (Ecu.gateway, 0x18daeff1, None): [
+      b'38897-TZB-JC30\x00\x00',
+    ],
+    (Ecu.eps, 0x18da30f1,None): [
+      b'39990-TZA-J910\x00\x00',
+    ],
+    (Ecu.fwdRadar, 0x18dab0f1, None): [
+      b'8S102-TZC-JA40\x00\x00',
+    ],
+    (Ecu.srs, 0x18da53f1, None): [
+      b'77959-TZB-J110\x00\x00',
+    ],
+    (Ecu.combinationMeter, 0x18da60f1, None): [
+      b'78109-TZB-J510\x00\x00',
+    ],
+    (Ecu.vsa, 0x18da28f1, None): [
+      b'57114-TZB-R020\x00\x00',
+    ],
+},
   CAR.HONDA_FREED: {
     (Ecu.gateway, 0x18daeff1, None): [
       b'38897-TDK-J010\x00\x00',
