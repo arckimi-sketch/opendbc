@@ -515,8 +515,7 @@ FW_VERSIONS = {
       b'\x0bM2281122411\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
     (Ecu.eps, 0x18da30f1,None): [
-      b'39990-TZA-J910\x00\x00',
-      b'\r BO5H211668D  
+      b'39990-TZA-J910\x00\x00', 
     ],
     (Ecu.fwdRadar, 0x18dab0f1, None): [
       b'8S102-TZC-JA40\x00\x00',
